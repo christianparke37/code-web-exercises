@@ -17,6 +17,11 @@ h1.fancy-header {
     text-align: center;
 }
 
+h2.fancy-header {
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
 /* selector for all "em" elements */
 em {
     font-weight: bold;
