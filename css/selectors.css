@@ -5,7 +5,7 @@
     padding: 10px;
 */}
 body {
-    background-color: #55aa55;
+    background-color: red;
     }
 /*  selector for all "h1" elements
     that are a descendent of id="container"
@@ -21,6 +21,7 @@ h2.fancy-header {
     color: white;
     text-decoration: underline;
     text-align: center;
+    background-color: black;
 }
 /* selector for all "em" elements */
 em {

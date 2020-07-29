@@ -5,3 +5,36 @@ body, html {
     margin: 0;
     font-family: Arial, Ubuntu, sans-serif;
 }
+.info {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin: 10px;
+    color: #2c008d;
+    background-color: #caddff;
+}
+
+.success {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin: 10px;
+    color: #007e40;
+    background-color: #c7f6d8;
+}
+.warning {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin: 10px;
+    color: #8b7500;
+    background-color: #fcfdc3;
+}
+.error {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin: 10px;
+    color: #ff0000;
+    background-color: #ffd0d7;
+}
