@@ -1,27 +1,18 @@
 /* selector for id="container" */
-/* container {
+#container {
     margin: 50px auto;
     width: 500px;
     padding: 10px;
-*/}
-body {
-    background-color: red;
-    }
+}
 /*  selector for all "h1" elements
     that are a descendent of id="container"
     and have a class of "fancy-header" */
 
-h1.fancy-header {
+#container h1.fancy-header {
     color: blue;
     text-decoration: underline;
-    text-align: center;
 }
 
-h2.fancy-header {
-    color: white;
-    text-decoration: underline;
-    text-align: center;
-    background-color: black;
 }
 /* selector for all "em" elements */
 em {
