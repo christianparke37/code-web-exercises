@@ -1,0 +1,209 @@
+@media screen and (max-width:576px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        font-family: "arial";
+    }
+    .alert-info {
+        display: flex;
+        width: 100%;
+    }
+    .alert-info a {
+        width: 95%;
+        height: 4em;
+        background-color: #ccffff;
+        border: .1em solid lightgrey;
+        color: black;
+        font-size: 1em;
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: .25em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .alert-info a:hover {
+        color: orange;
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin: .25em auto 0 auto;
+        font-size: 2em;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    nav .nav-links {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .nav-links li {
+        width: 95%;
+        height: 2em;
+        background: lightgrey;
+        list-style-type: none;
+        margin: .3em 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    li a {
+        color: blue;
+        font-size: 1em;
+    }
+    li a:hover {
+        color: orange;
+    }
+    .header-img img {
+        height: auto;
+        align-items: center;
+        max-width: 100%;
+    }
+    .header-img {
+        margin: auto;
+        width: 95%;
+    }
+    .main {
+        font-size: 1em;
+        max-width: 95%;
+        margin: auto;
+    }
+
+    .sub-section {
+        font-family: "arial";
+        margin: auto;
+        /* what is this font
+        display:
+         */
+        max-width: 95%;
+        font-style: italic;
+        font-size: 1em;
+        margin-bottom: 3em;
+    }
+    footer p {
+        font-size: 1em;
+    }
+    footer {
+        background-color: white;
+        width: 95%;
+        height: 2em;
+        /*display: flex;*/
+        /*justify-content: center;*/
+        margin-right: auto;
+        bottom: 0;
+        position: relative;
+    }
+}
+
+
+@media screen and (min-width:577px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        font-family: "arial";
+    }
+    .alert-info {
+        display: flex;
+        width: 100%;
+    }
+    .alert-info a {
+        width: 95%;
+        height: 4em;
+        background-color: #ccffff;
+        border: .1em solid lightgrey;
+        color: black;
+        font-size: 1em;
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: .25em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .alert-info a:hover {
+        color: orange;
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin: .25em auto 0 auto;
+        font-size: 2em;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    nav .nav-links {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .nav-links li {
+        width: 95%;
+        height: 2em;
+        background: lightgrey;
+        list-style-type: none;
+        margin: .3em 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    li a {
+        color: blue;
+        font-size: 1em;
+    }
+    li a:hover {
+        color: orange;
+    }
+    .header-img img {
+        height: auto;
+        max-width: 100%;
+    }
+    .header-img {
+        margin: auto;
+        width: 100%
+    }
+    .main {
+        font-size: 1em;
+        max-width: 95%;
+        margin: auto;
+    }
+
+    .sub-section {
+        font-family: "arial";
+        margin: auto;
+        /* what is this font
+        display:
+         */
+        max-width: 95%;
+        font-style: italic;
+        font-size: 1em;
+        margin-bottom: 3em;
+    }
+    footer p {
+        font-size: 1em;
+    }
+    footer {
+        background-color: white;
+        width: 95%;
+        height: 2em;
+        /*display: flex;*/
+        /*justify-content: center;*/
+        margin-right: auto;
+        bottom: 0;
+        position: relative;
+    }
+}
