@@ -1,0 +1,16 @@
+.card {
+    width: 30em !important;
+}
+
+.media-photo {
+    width: 120px;
+}
+
+#car-brand-logo {
+    height: 30px;
+    width: 30px;
+}
+
+/*#jumbotron-subheading {*/
+/*    text-decoration: underline;*/
+/*}*/
