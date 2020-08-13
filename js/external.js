@@ -22,13 +22,13 @@ var amazonhours = prompt("How many hours did you work at Amazon?");
 
 console.log = (+googlehours * googleRate) + (+facebookhours * facebookRate) + (+amazonhours * amazonRate)
 
-console.log("You made $" + salary.toFixed(2) + " this week!");
+alert("You made $" + salary.toFixed(2) + " this week!");
 
 
 var classCapacity = 30;
 var registeredStudents = 20;
 var classDoesNotConflict = confirm("Press okay if ths does not conflict with your schedule.");
-var canEnroll = (classCapacity > registeredStudents) && !classConflicts;
+var canEnroll = (classCapacity > registeredStudents) && !classDoesNotConflict;
 
 alert("Can she register?" + canEnroll);
 

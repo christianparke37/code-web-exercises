@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Functions</title>
+</head>
+<body>
+<h1>JS Functions</h1>
+<script>
+    happyBirthday("Ryan")
+    happyBirthday("Chris")
+
+    function happyBirthday(name){
+    console.log("Happy Birthday to you")
+    console.log("Happy Birthday to You")
+    console.log("Happy Birthday to dear " + name)
+    console.log("Happy Birthday to You!")
+}
+    var footballTeam = "Longhorn"
+console.log("My favorite football team is " + footballTeam)
+
+    function favoriteFootballTeam() {
+        var question = "What team is your favorite Football Team?"
+        var response = prompt(question);
+        alert("Great, "+ response + " is my favorite football team too!");
+    }
+    favoriteFootballTeam();
+    favoriteFootballTeam();
+    favoriteFootballTeam();
+    favoriteFootballTeam();
+    favoriteFootballTeam();
+
+
+    var favoriteColor = "orange";
+    console.log("My favorite color is " + favoriteColor);
+    var adjective = "fantastic"
+
+    favoriteColor = function(color) {
+        var question = "what is your favorite color?";
+        var response = prompt(question);
+        alert("Great, " + response + " is " + adjective + " ! " + color + "is my favorite color!");
+        return response;
+    }
+
+        var num = 2 + 7 *3
+        var response = favoriteColor("orange");
+    console.log("Your favorite color is " + response); //response is out of scope
+
+    //define a function and immediately invoke *i.e. call it */
+    f(function () {
+        "use strict";
+        var iffeVar = "I'm local to the IFFEE"
+
+
+// alert(iffeVar:)    })
+//
+    console.log
+
+</script>
+</body>
+</html>
