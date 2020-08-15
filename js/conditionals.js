@@ -108,25 +108,25 @@ analyzeColor(color);
  */
 
 // var luckyNumbers = [1, 2, 3, 4, 5, 6,];
-// var randomNumber = number[Math.floor(Math.random() * luckyNumbers.length)];
+var luckyNumber = Math.floor(Math.random() * 6);
 
 function calculateTotal(luckyNumber, totalAmount) {
      if (luckyNumber === 1) {
-            alert("Congratulations! You get a 10% discount. Your total bill will be $" + (totalAmount - (totalAmount * .1)));
+            alert("Congratulations! Your number was " + luckyNumber +". You get a 10% discount. Your total bill will be $" + (totalAmount - (totalAmount * .1)));
         } else if (luckyNumber === 2) {
-           alert("Congratulations! You get a 25% discount. Your total bill will be $" + (totalAmount - (totalAmount * .25)));
+           alert("Congratulations! Your number was " + luckyNumber +". You get a 25% discount. Your total bill will be $" + (totalAmount - (totalAmount * .25)));
         } else if (luckyNumber === 3) {
-            alert("Congratulations! You get a 35% discount. Your total bill will be $" + (totalAmount - (totalAmount * .35)));
+            alert("Congratulations! Your number was " + luckyNumber +". You get a 35% discount. Your total bill will be $" + (totalAmount - (totalAmount * .35)));
         } else if (luckyNumber === 4) {
-            alert("Congratulations! You get a 50% discount. Your total bill will be $" + (totalAmount - (totalAmount *.50)));
+            alert("Congratulations! Your number was " + luckyNumber +". You get a 50% discount. Your total bill will be $" + (totalAmount - (totalAmount *.50)));
         } else if (luckyNumber === 5) {
-                alert("Congratulations! You're receiving 100% discount! It's free");
+                alert("Congratulations! Your number was " + luckyNumber +". You're receiving 100% discount! It's free");
         } else  {
             alert ("Sorry, but no discount for you. Your total price will be: $" + totalAmount);
     }
 
     }
-calculateTotal(3, 100);
+alert(calculateTotal(3, 100));
 // console.log(calculateTotal(0, 100));
 // console.log(calculateTotal(1, 100));
 // console.log(calculateTotal(2, 100));
@@ -136,30 +136,30 @@ calculateTotal(3, 100);
 
 
 
-function calculateTotal(luckyNumber, totalAmount) {
-    switch (luckyNumber) {
-        case 0:
-            return totalAmount;
-        case 1:
-            // 10 % discount
-            return totalAmount * (1 - .1);
-        case 2:
-            // 20 % discount
-            return totalAmount * (1 - .25);
-        case 3:
-            // 30 % discount
-            return totalAmount * (1 - .35);
-        case 4:
-            // 40 % discount
-            return totalAmount * (1 - .5);
-        case 5:
-            // 50 % discount
-            return 0
-        default:
-            // Just default
-            return false;
-    }
-}
+// function calculateTotal(luckyNumber, totalAmount) {
+//     switch (luckyNumber) {
+//         case 0:
+//             return totalAmount;
+//         case 1:
+//             // 10 % discount
+//             return totalAmount * (1 - .1);
+//         case 2:
+//             // 20 % discount
+//             return totalAmount * (1 - .25);
+//         case 3:
+//             // 30 % discount
+//             return totalAmount * (1 - .35);
+//         case 4:
+//             // 40 % discount
+//             return totalAmount * (1 - .5);
+//         case 5:
+//             // 50 % discount
+//             return 0
+//         default:
+//             // Just default
+//             return false;
+//     }
+// }
 
 
 /**
@@ -197,9 +197,11 @@ function playAGame(){
         if (isNaN(userNumber)){
             alert("That was not a number.")
         } else {
-            var even0dd = (userNumber % 2  ===0) ? "Your number is even." : "Your number is odd."
+            var evenOdd = (userNumber % 2  ===0) ? "Your number is even." : "Your number is odd."
             var positiveNegative = (userNumber > 0) ? "Your number is positive" : "Your number is negative."
-            alert("Your number plus 100 is " + (parseInt(userNumber + 100)))
+            alert(evenOdd)
+            alert(positiveNegative)
+            alert("Your number plus 100 is " + (parseInt(userNumber) + 100))
         }
 } else {
     alert("Party Pooper!")
