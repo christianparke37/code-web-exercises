@@ -25,8 +25,8 @@
 // - `colors`: a list of the colors of the rainbow
 // - `randomColor`: contains a single random color value from the list (this
 //                  will contain a different color every time the page loads)
-// var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
-// var randomColor = colors[Math.floor(Math.random() * colors.length)];
+var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+var randomColor = colors[Math.floor(Math.random() * colors.length)];
 // function analyzeColor(color) {
 //     if (color === "blue") {
 //         return("The sky is blue!")
@@ -55,13 +55,13 @@ var color = prompt("What color are you thinking about?")
 function analyzeColor(color) {
     switch (color.toLowerCase()) {
         case 'blue':
-            return alert("The sky is blue!");
+            return alert("blue is the color of the sky!");
             break;
         case 'red':
-            return alert("strawberries are red");
+            return alert ("strawberries are red");
             break;
         default:
-            return alert("I don't know anything about " + color);
+            return alert ("I don't know anything about " + color);
 
     }
 }
