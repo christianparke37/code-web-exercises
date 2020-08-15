@@ -112,13 +112,13 @@ analyzeColor(color);
 
 function calculateTotal(luckyNumber, totalAmount) {
      if (luckyNumber === 1) {
-            alert("Congratulations! You get a 10% discount. Your total bill will be $" + (totalAmount - (totalAmount * .1));
+            alert("Congratulations! You get a 10% discount. Your total bill will be $" + (totalAmount - (totalAmount * .1)));
         } else if (luckyNumber === 2) {
-           alert("Congratulations! You get a 25% discount. Your total bill will be $" + (totalAmount - (totalAmount * .25));
+           alert("Congratulations! You get a 25% discount. Your total bill will be $" + (totalAmount - (totalAmount * .25)));
         } else if (luckyNumber === 3) {
-            alert("Congratulations! You get a 35% discount. Your total bill will be $" + (totalAmount - (totalAmount * .35);
+            alert("Congratulations! You get a 35% discount. Your total bill will be $" + (totalAmount - (totalAmount * .35)));
         } else if (luckyNumber === 4) {
-            alert("Congratulations! You get a 50% discount. Your total bill will be $" + (totalAmount - (totalAmount *.50);
+            alert("Congratulations! You get a 50% discount. Your total bill will be $" + (totalAmount - (totalAmount *.50)));
         } else if (luckyNumber === 5) {
                 alert("Congratulations! You're receiving 100% discount! It's free");
         } else  {
@@ -127,9 +127,17 @@ function calculateTotal(luckyNumber, totalAmount) {
 
     }
 calculateTotal(3, 100);
+// console.log(calculateTotal(0, 100));
+// console.log(calculateTotal(1, 100));
+// console.log(calculateTotal(2, 100));
+// console.log(calculateTotal(3, 100));
+// console.log(calculateTotal(4, 100));
+// console.log(calculateTotal(5, 100));
+
+
 
 function calculateTotal(luckyNumber, totalAmount) {
-    switch (lukcyNumber) {
+    switch (luckyNumber) {
         case 0:
             return totalAmount;
         case 1:
@@ -153,12 +161,7 @@ function calculateTotal(luckyNumber, totalAmount) {
     }
 }
 
-    console.log(claculateTotal(luckyNumber 0, TotalAmount: 100))
-    console.log(claculateTotal(luckyNumber 0, TotalAmount: 100))
-    console.log(claculateTotal(luckyNumber 0, TotalAmount: 100))
-    console.log(claculateTotal(luckyNumber 0, TotalAmount: 100))
-    console.log(claculateTotal(luckyNumber 0, TotalAmount: 100))
-}
+
 /**
  * TODO:
  * Uncomment the line below to generate a random number between 0 and 6.
