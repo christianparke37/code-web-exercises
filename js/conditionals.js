@@ -148,6 +148,7 @@ function calculateTotal(luckyNumber, totalAmount) {
             // 50 % discount
             return 0
         default:
+            // Just default
             return false;
     }
 }
@@ -190,13 +191,15 @@ function playAGame(){
     var playGame = confirm("Would you like to play a game?");
     if (playGame) {
         var userNumber = prompt("Please enter a whole number without decimals:")
-        if isNaN(userNumber)){
-            prompt(message"Please enter a whole number without decimales:"))}
+        if (isNaN(userNumber)){
+            alert("That was not a number.")
         } else {
-    }
-        alert("Your nmber plus 100 is " + (parseInt))
+            var even0dd = (userNumber % 2  ===0) ? "Your number is even." : "Your number is odd."
+            var positiveNegative = (userNumber > 0) ? "Your number is positive" : "Your number is negative."
+            alert("Your number plus 100 is " + (parseInt(userNumber + 100)))
         }
 } else {
     alert("Party Pooper!")
 }
 }
+playAGame();
