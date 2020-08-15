@@ -59,3 +59,8 @@ const numbers = [1, 4, 9, 16]
 function subtractTwo(numbers) {
     return numbers.map(x => x - 2)
 }
+const years = [1763, 1972, 1925, 116, 984, 1124, 1950, 2020]
+
+function getYears(years) {
+    return years.filter(year => year >1950)
+}
