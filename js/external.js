@@ -1,6 +1,6 @@
 console.log("Hello from external JavaScript");
 
-alert("Welcome to Website!")
+alert("Welcome to my Website!")
 
 var question = "What is your favorite color?";
 var response = prompt(question);
