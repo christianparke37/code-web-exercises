@@ -60,13 +60,11 @@
     //     console.log(names[i]);
     // }
 
-    for (var i = 0; i < names.length; i++); {
+    for (let i = 0; i < names.length; i++) {
         console.log('The name is ' + i + ' is: ' + names[i]);
         // console.log(names[i]);
     }
-    // names.forEach(function(item, index) {
-    //     console.log('The name is ' + i + ' is: ' + shapes);
-    // })
+
 
     // students.forEach(function(student, index)); {
     //     console.log((index +1) + ":" + student);
@@ -90,14 +88,17 @@
      *  > second([1, 2, 3, 4, 5]) // returns 2
      *  > last([1, 2, 3, 4, 5]) // return 5
      */
- var first = function(arr) {
-     return [0];
-     var second = function(arr) {
-         return [1];
-     var last = function(arr) {
-         return arr[arr.length-1];
-         }
-     }
-     }
+ // var first = function(arr) {
+ //     return [0];
+ //     var second = function(arr) {
+ //         return [1];
+ //     var last = function(arr) {
+ //         return arr[arr.length-1];
+ //         }
+ //     }
+ //     }
+
+     var letters = [a, b, c, d, e];
+     letters.push ('f')
 
 })();
