@@ -98,7 +98,6 @@
  //     }
  //     }
 
-     var letters = [a, b, c, d, e];
-     letters.push ('f')
+
 
 })();
