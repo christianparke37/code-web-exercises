@@ -144,14 +144,14 @@ checkIfGameIsOver(1);
 //TODO: Write a confirm asking the user if they are 13 years of age or older. If they are, alert "You may proceed", if they are not, alert "Sorry, you are not able to proceed"
 
 function areYouOldEnough(age) {
-    var age = confirm ("Are you at least 13 years of age?");
+    var age = confirm("Are you at least 13 years of age?");
     if (age) {
         alert("You may proceed");
     } else {
         alert("Sorry, you are not able to proceed.")
     }
 }
-areYouOldEnough(age);
+areYouOldEnough(25);
 
 
 // Ternary
@@ -195,19 +195,19 @@ if (weather === "snowing") {
 
 //TODO: Write a function that accepts a string that is a traffic light color as an input. When this function is called, it should return a message informing the user what to do when approaching that color light at an intersection.
 
-// function Checklights (color) {
-//     if (color === "red") {
-//         alert("Stop on Red!")
-//     }
-//     else if (color === "green") {
-//             alert("Proceed through the intersection")
-//     } else if (color === "yellow") {
-//         alert("Slow down and proceed with caution")
-//     } else {
-//         alert("Light is not working, come to a complete stop and proceed with caution")
-//     }
-// }
-//     checkLights("rainbow)
+function Checklights (color) {
+    if (color === "red") {
+        alert("Stop on Red!")
+    }
+    else if (color === "green") {
+            alert("Proceed through the intersection")
+    } else if (color === "yellow") {
+        alert("Slow down and proceed with caution")
+    } else {
+        alert("Light is not working, come to a complete stop and proceed with caution")
+    }
+}
+    checkLights("rainbow)
 
 
 // ================ NESTED STATEMENTS ===============
@@ -243,13 +243,13 @@ function validateEligibility(age = prompt("please enter your age"), hasPermit) {
 
 var message;
 var success = true;
-//
-// if (success) {
-//     message = "Operation was successful.";
-// } else {
-//     message = "Oops, something went wrong.";
-// }
-// console.log(message);
+
+if (success) {
+    message = "Operation was successful.";
+} else {
+    message = "Oops, something went wrong.";
+}
+console.log(message);
 
 //WRITE YOUR TERNARY STATEMENT HERE!
 
@@ -259,47 +259,47 @@ console.log(message);
 
 //TODO: Refactor the following conditional as a ternary
 
-// var weather = "sunny";
-// var weatherMessage;
+var weather = "sunny";
+var weatherMessage;
 
-// if(weather === "rainy"){
-//    weatherMessage = "It's raining!";
-// } else {
-//     weatherMessage = "Have a nice day!";
-// }
-// console.log(weatherMessage);
+if(weather === "rainy"){
+   weatherMessage = "It's raining!";
+} else {
+    weatherMessage = "Have a nice day!";
+}
+console.log(weatherMessage);
 
-//WRITE YOUR TERNARY STATEMENT HERE!
+// WRITE YOUR TERNARY STATEMENT HERE!
 
 weatherMessage = (weather === "rainy") ? "It's raining" : "Have a nice day!"
 console.log(weatherMessage)
 
 
-var numberofLives = 5
-
-function CheckIfGameIsOver (numberOfLives) {
-    if (numberOfLives === 0)
-        alert("Sorry, game over!")
-    } else {
-    alert("Next Level!")
-    }
-}
-function checkIfGameOver(numberOfLives {
+// var numberofLives = 5
+//
+// function CheckIfGameIsOver (numberOfLives) {
+//     if (numberOfLives === 0)
+//         alert("Sorry, game over!")
+//     } else {
+//     alert("Next Level!")
+//     }
+// }
+function checkIfGameOver(numberOfLives) {
     alert((numberOfLives === 0) ? "Sorry Game Over" : "Next Level")
 }
 // =============== SWITCH STATEMENT ================
 //TODO Together:
 
-switch(condition) {
-    case 0:
-        //code here for case 0
-        break;
-    case 1: ()
-        //code here for case 1
-        break;
-    default:
-        // default case is similar to an else
-}
+// switch(condition) {
+//     case 0:
+//         //code here for case 0
+//         break;
+//     case 1: ()
+//         //code here for case 1
+//         break;
+//     default:
+//         // default case is similar to an else
+// }
 var pizzaPreference = prompt("What kind of pizza do you like?");
 console.log("User pizza input: " + pizzaPreference);
 
@@ -334,7 +334,7 @@ startOrder(pizzaPreference);
 weather = "snow";
 switch(weather) {
     case "rainy":
-        alert("it's raining');
+        alert("it's raining");
             break;
     case "sunny":
         alert("Get your sunglasses out. It is sunny");
@@ -352,7 +352,7 @@ switch(weather) {
 function checkWeather(weather) {
     switch(weather) {
         case "rainy":
-            return alert("it's raining');
+            return alert("it's raining");
             break;
         case "sunny":
             return alert("Get your sunglasses out. It is sunny");
