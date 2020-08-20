@@ -30,7 +30,23 @@
      * list. You will need an opening AND closing <ul> tags around the entire
      * string, and <li> tags around each planet.
      */
-    planetsArray.sort();
-    console.log(planetsArray);
+
+    // var newString = planetsArray.join(' <li> ').split(' '); 
+    // newString.unshift('<ul>','<li>'); 
+    // newString.push('</li>','</ul>'); 
+    // console.log(newString.join('')); 
+    // var newString = planetsArray.join(' <li> </li>').split(' '); 
+    // newString.unshift('<ul>','<li>');     newString.push('</li>','</ul>'); 
+    // console.log(newString.join(''));
+    //
+    // var newString = planetsArray.join(' </li> <li> ').split(' '); 
+    // newString.unshift('<ul>','<li>'); 
+    // newString.push('</li>','</ul>'); 
+    // console.log(newString.join(''));
+
+    var planetsList = "<ul><li>" + planetsArray.join("</li><li>") +"</li></ul>";
+    console.log(planetlist);
+    // planetsArray.sort();
+    // console.log(planetsArray);
 
 })();
