@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Functions</title>
+</head>
+<body>
+<h1>JS Functions</h1>
+<script>
+
+    // define a function and immediately invoke (i.e. call) it
+    (function () {
+        "use strict";
+        var iffeVar = "I'm local to the IIFE.";
+
+
+    // alert(iffeVar); // undefined
+    function happyBirthday(name){
+        console.log("Happy Birthday to You");
+        console.log("Happy Birthday to You");
+        console.log("Happy Birthday Dear " + name);
+        console.log("Happy Birthday to You!");
+    }
+
+    happyBirthday("Ryan");
+    happyBirthday("Chris");
+
+    var favoriteColor = "orange";
+    console.log("My favorite color is " + favoriteColor);
+    var adjective = "phenomenal"
+
+    // favoriteColor(); won't work, not yet defined
+    favoriteColor = function(color) {
+        var question = "What is your favorite color?";
+        var localResponse = prompt(question);
+        alert("Great, " + localResponse + " is "+ adjective+"! " +color+" is my favorite color!");
+        return localResponse;
+    }
+
+    // console.log(typeof favoriteColor)
+    var num = 2 + 7 * 3
+    var globalResponse = favoriteColor("orange");
+    console.log("Your favorite color is " + globalResponse); //response is out of scope
+
+    var x = 300;
+    var y = 100;
+
+    function scopeExample() {
+        var x = 1;
+        var y = 2;
+        console.log('x: ' + x + ' y: ' + y); // x: 1 y: 2
+        return x + y;
+    }
+
+    console.log('x: ' + x + ' y: ' + y); // x: 300 y: 100
+    var returnValue = scopeExample();
+    console.log(returnValue); // 3
+    })();
+</script>
+
+</body>
+</html>
